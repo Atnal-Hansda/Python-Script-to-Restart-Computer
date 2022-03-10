@@ -1,0 +1,9 @@
+from logging import shutdown
+import os as atnal
+
+restart = input("Restart Your Computer ? (yes/no): ")
+
+if restart == 'no':
+    exit()
+else:
+    atnal.system("shutdown /r /t 1")
